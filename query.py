@@ -28,7 +28,7 @@ def lambda_handler(event, context):
 
 
 def create_query_params(event):
-    search_query = event['queryStringParameters']['query']
+    search_query = json.loads(event['body'])['query']
     return {
         'action': 'query',
         'list': 'search',
