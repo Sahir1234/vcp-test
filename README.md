@@ -18,15 +18,15 @@
 
  2. Query: make a POST request to https://2vrfp12l60.execute-api.us-east-1.amazonaws.com/query. This will return some data parsed and cleaned from the wikipedia API. I tested using [Postman](https://www.postman.com), which is a convenient tool for testing public APIs and making custom HTTP requests. Some sample URLs to test with in Postman are below. Please note that these URLs are formatted by Postman, the query value should be set in the query params fo the POST request where the key is "query" and the value is whatever the search is for.
 
-    a. POST https://2vrfp12l60.execute-api.us-east-1.amazonaws.com/query?query=Facebook
+    a. POST https://2vrfp12l60.execute-api.us-east-1.amazonaws.com/query
 
     - Query Parameters: {"query": "Facebook"}
 
-    b. POST https://2vrfp12l60.execute-api.us-east-1.amazonaws.com/query?query=Superman
+    b. POST https://2vrfp12l60.execute-api.us-east-1.amazonaws.com/query
 
     - Query Parameters: {"query": "Superman"}
 
-    c. POST https://2vrfp12l60.execute-api.us-east-1.amazonaws.com/query?query=NYC
+    c. POST https://2vrfp12l60.execute-api.us-east-1.amazonaws.com/query
 
     - Query Parameters: {"query": "NYC"}
 
